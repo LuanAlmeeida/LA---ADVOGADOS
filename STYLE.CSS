@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Quintessential&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    /*box-sizing: border-box;*/
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background-image: linear-gradient(30deg, #8B7E78,#A27850,#593723);
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-around;
+    padding: 24px;
+    background-color: silver;
+    border-bottom: 3px solid black;
+    height: 50px;
+}
+
+.cabecalho-imagem{
+   height: 90px;
+   width: 180px;
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 33px;
+}
+
+.cabecalho-menu-item{
+    font-family:'Quintessential', cursive;
+    font-weight: 600;
+    font-size: 18px;
+    color: black;
+}
+
+.cabecalho-menu-item:hover{
+   color: whitesmoke;
+   text-decoration: underline;
+}
+
+.QS{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 15px;
+    font-size: 20px;
+}
+
+.Imagem-QS{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 20px;
+}
+
+.AA{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    max-width: 900px;
+    gap: 30px;
+    padding: 30px;
+    border: 3px solid gray;
+    border-radius:20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    padding-bottom: 30px;
+    padding-top: 45px;
+    
+}
+
+.conteudo-principal-imagem{
+    padding: 15px;   
+         
+}
+
+.imagem{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 20px;
+    opacity: 0.8;
+    
+}
+
+.imagem-principal-texto{
+    position: absolute;
+    top: 320px;
+    left: 420px;
+    color: black;
+    font-size: 22px;
+
+}
+
+.QS-Titulo{
+    position: absolute;
+    top: 645px;
+    left: 460px;
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+    height: 5px;
+    width: 360px;
+
+}
+
+.AA-Titulo{
+    position: absolute;
+    top: 1860px;
+    left: 460px;
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+    height: 5px;
+    width: 360px;
+
+}
+
+.Contato-Titulo{
+    position: absolute;
+    top: 2625px;
+    left: 460px;
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+    height: 5px;
+    width: 360px;
+
+}
+
+.imagem-principal-texto-item{
+    font-family: 'Quintessential',cursive;
+}
+
+.conteudo-principal1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    border: 3px solid gray;
+    border-radius:20px;
+    max-width: 950px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.Titulo{
+    font-family: 'Quintessential', cursive;
+}
+
+.conteudo-principal1-texto{
+    text-align: justify;
+    padding-right: 30px;
+}
+
+.conteudo-principal2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 3px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 3px solid gray;
+    border-radius:20px;
+    width: 192px;
+    height: 192px;
+    color: black;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+    
+}
+
+.MVV{
+    display: flex;
+    flex-direction: row;
+    border: 3px solid gray;
+    border-radius:20px;
+    max-width: 920px;
+    gap: 30px;
+    padding: 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.Missao{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 15px;
+    text-align: justify;
+    background-color: darkgray;
+    border-radius: 25px;
+    font-size: 20px;
+}
+
+.Missao h3{
+    font-family:'Quintessential', cursive;
+    font-weight: 600px;
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+.Visao{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 15px;
+    text-align: justify;
+    background-color: silver;
+    border-radius: 25px;
+    font-size: 20px;
+}
+
+.Visao h3{
+    font-family:'Quintessential', cursive;
+    font-weight: 600px;
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+.Valores{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 15px;
+    text-align: justify;
+    background-color: darkgray;
+    border-radius: 25px;
+    font-size: 20px;
+}
+
+.Valores h3{
+    font-family:'Quintessential', cursive;
+    font-weight: 600px;
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+.conteudo-principal2:hover{
+    color: darkgray;    
+}
+
+.conteudo-principal3{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    border: 3px solid gray;
+    border-radius:20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.butao1{
+    width: 950px;
+    height: 70px;
+    border-radius: 20px;
+    font-size: 30px;
+}
+
+.butao2{
+    width: 950px;
+    height: 70px;
+    background-color: silver;
+    border-radius: 20px;
+    font-size: 30px;
+}
+
+.rodape-menu{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    
+}
+
+.rodape-menu ul li{
+    list-style: none;
+    padding: 3px;
+}
+
+.rodape-menu ul li a{
+    color: black;
+}
+
+.rodape-menu ul li a:hover{
+    color: whitesmoke;
+    text-decoration: underline;
+}
+
+.rodape-menu-redes-sociais{
+    padding: 33px;
+}
+.rodape{
+    background-color: silver;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-top: 3px solid black;
+}
+
+.rodape-conteudo1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    max-height: 330px;
+    
+}
+
+.rodape-conteudo2{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 30px;
+    max-width: 350px;
+}
+
+.direitos-autorais{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    height: 50px;
+}
